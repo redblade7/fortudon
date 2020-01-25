@@ -13,7 +13,7 @@ fortune.py and includes its own Fediverse bot features.
 * curl
 * Fortune files, such as those provided with fortune-mod or BSD fortune
 
-**DIFFERENCES BETWEEN FORTUDON AND FORTUNE.PY**
+**DIFFERENCES BETWEEN FORTUDON AND FORTUNE.PY:**
 
 The original fortune.py was created by Michael Goerz in 2008. It was only
 compatible with Python 2. cPickle was used to create data files, with 
