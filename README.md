@@ -1,0 +1,2 @@
+# fortudon
+Fediverse fortune bot
