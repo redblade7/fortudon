@@ -22,13 +22,13 @@ depending on the terminal's character encoding. Offensive fortune files
 ending in `-o` were supported, but unlike traditional BSD fortune, these files
 are not ROT13-rotated.
 
-`http://www.physik.fu-berlin.de/~goerz`
+http://www.physik.fu-berlin.de/~goerz
 
 fortune.py was forked by Volker Kettenbach in 2018 and was designed to work
 with Python 3.7.1 and UTF-8 fortune files. cPickle was replaced with Pickle,
 and protocol was left compatible at legacy version 2.
 
-`https://gitlab.com/volkerkettenbach/fortune-api/tree/master`
+https://gitlab.com/volkerkettenbach/fortune-api/tree/master
 
 Fortudon was forked from Kettenbach's fortune.py in 2020 by redneonglow.
 Changes were made with regard to use of legacy code. The pickle protocol
@@ -41,7 +41,7 @@ Fortudon is designed as a Fediverse bot with built in support for posting
 fortunes to Pleroma and Mastodon instances. Code from Dark Web Mystery Bot
 (another Fediverse bot by redneonglow) was incorporated into Fortudon.
 
-`https://github.com/redblade7/darkwebmysterybot`
+https://github.com/redblade7/darkwebmysterybot
 
 Fortudon, like fortune.py, is licensed under the GPLv3.
 
