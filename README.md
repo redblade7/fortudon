@@ -45,6 +45,10 @@ https://github.com/redblade7/darkwebmysterybot
 
 Fortudon, like fortune.py, is licensed under the GPLv3.
 
+The official Web site for Fortudon is:
+
+https://github.com/redblade7/fortudon
+
 **SET UP THE TOKEN FILE:**
 
 1. Create a Fediverse account for your Fortudon bot.
