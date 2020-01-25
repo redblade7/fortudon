@@ -1,0 +1,16 @@
+v3-dev (20200125)
+
+* Add Fediverse post option
+* Pickle protocol changed to 4 with default extension `.p4dat`
+* Added user-friendly error if filtering returns nothing
+* Switched from random to secrets
+* Convert remaining print chevrons to print()
+* Changed to standard exit codes
+* Python 3.6 or higher required
+* Offensive fortunes ending in '-o' now must also be ROT13'd
+* Add OSError exceptions when opening files
+
+Fortudon starts at v3-dev (20200125)
+
+v2-stable (2018) - the Python 3.7.1/UTF-8 version of fortune.py
+v1-stable (2008) - the original Python 2 version of fortune.py
