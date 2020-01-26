@@ -93,6 +93,6 @@ Enjoy!
 * `@redneonglow@anime.website` / https://anime.website/redneonglow (backup)
 * `@redneonglow@weeaboo.space` / https://weeaboo.space/redneonglow (backup)
 
-**FORTUNE BOTS RUNNING FORTUDON:**
+**FORTUNE BOTS USING FORTUDON:**
 
 * `@YKYWTMSMW@neckbeard.xyz` / https://neckbeard.xyz/ykywtmsmw
