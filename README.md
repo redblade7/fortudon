@@ -95,4 +95,5 @@ Enjoy!
 
 **FORTUNE BOTS USING FORTUDON:**
 
-* `@YKYWTMSMW@neckbeard.xyz` / https://neckbeard.xyz/ykywtmsmw
+* `@BitchX@neckbeard.xyz` / https://neckbeard.xyz/BitchX
+* `@YKYWTMSMW@neckbeard.xyz` / https://neckbeard.xyz/YKYWTMSMW
