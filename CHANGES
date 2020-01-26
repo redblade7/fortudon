@@ -1,3 +1,9 @@
+v3-dev (20200126)
+
+* Corrected incorrect information in 20200125 changelog
+* Added missing changes to 20200125 changelog
+* Added idea to todo
+
 v3-dev (20200125)
 
 * Add Fediverse post option
@@ -6,9 +12,10 @@ v3-dev (20200125)
 * Switched from random to secrets
 * Convert remaining print chevrons to print()
 * Changed to standard exit codes
-* Python 3.6 or higher required
+* Python 3.5 or higher required
 * Offensive fortunes ending in '-o' now must also be ROT13'd
 * Add OSError exceptions when opening files
+* Changed from optparse to argparse
 
 Fortudon starts at v3-dev (20200125)
 
