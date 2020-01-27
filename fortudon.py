@@ -3,6 +3,7 @@
 ############################################################################
 #    Fortudon - Fediverse fortune bot                                      #
 #    Copyright (C) 2020, redneonglow                                       #
+#    https://github.com/redblade7/fortudon                                 #
 #                                                                          #
 #    Includes code from:                                                   #
 #                                                                          #
@@ -504,7 +505,7 @@ def fd_verline():
 
 #return part two of version info as string
 def fd_verpart2():
-    return str("A Fediverse fortune bot by redneonglow.\nMore info: https://github.com/redblade7/(add)")
+    return str("A Fediverse fortune bot by redneonglow.\nMore info: https://github.com/redblade7/fortudon")
 
 #return copyright and license info
 def fd_copyright():
