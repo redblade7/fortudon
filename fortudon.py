@@ -51,7 +51,7 @@ from argparse import ArgumentParser,RawDescriptionHelpFormatter
 from glob import glob
 from time import sleep
 
-FORTUDON_VERSION = "3-dev (20200127)" # Fortudon version number
+FORTUDON_VERSION = "3-dev (20200128)" # Fortudon version number
 _PICKLE_PROTOCOL = 4  #  original fortune.py used 2
 INDEX_EXT = '.p4dat'  #  file extension of index files, fortune.py used '.pdat'
 DEFAULT_LENGTH = 160  #  default number of characters a ''short'' fortune
