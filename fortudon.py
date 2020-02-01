@@ -51,15 +51,21 @@ from argparse import ArgumentParser,RawDescriptionHelpFormatter
 from glob import glob
 from time import sleep
 
+"""
+GLOBAL VARIABLES
+"""
+
 FORTUDON_VERSION = "3-dev (20200201)" # Fortudon version number
 _PICKLE_PROTOCOL = 4  #  original fortune.py used 2
 INDEX_EXT = '.p4dat'  #  file extension of index files, fortune.py used '.pdat'
 DEFAULT_LENGTH = 160  #  default number of characters a ''short'' fortune
-                      #  can have at maximum
+                      #     can have at maximum
 ATTEMPTS = 10000      #  number of attempts that will be made to find an 
-                      #  appropriate fortune, before the program gives up
-ENCODING = 'utf8'     #  Encoding of the fortune file. On Slackware Linux,
-                      #  you may want to change this to 'latin1'
+                      #     appropriate fortune, before the program gives up
+ENCODING = 'utf8'     #  Encoding of the fortune files.
+                      #     Should almost always be the default 'utf8'
+                      #     Slackware Linux users may want to change this
+                      #     to 'latin1'
 
 def get_random_fortune(fortunepaths, weighted=True, offensive=None, 
                        min_length=0, max_length=None):
