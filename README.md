@@ -59,7 +59,9 @@ For this reason, Slackware users may want to force latin1 encoding rather than
 utf8. To do this, edit `fortudon.py`'s "GLOBAL VARIABLES" section and change
 the value of ENCODING from 'utf8' to 'latin1'.
 
-This almost never needs to be done.
+This almost never needs to be changed. It is recommended to leave it 'utf8'
+unless you use Slackware Linux and are having these errors, otherwise serious
+bugs can happen.
 
 **SET UP THE TOKEN FILE:**
 
