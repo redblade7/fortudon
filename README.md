@@ -49,6 +49,18 @@ The official Web site for Fortudon is:
 
 https://github.com/redblade7/fortudon
 
+**NOTE FOR SLACKWARE LINUX USERS**
+
+Slackware Linux, by default, uses latin1 encoding rather than UTF-8 on the terminal and in its fortune files. This occasionally leads to strange errors when trying to create the .p4dat files, such as:
+
+`'utf-8' codec can't decode byte 0xa3 in position 1293: invalid start byte`
+
+For this reason, Slackware users may want to force latin1 encoding rather than
+utf8. To do this, edit `fortudon.py`'s "GLOBAL VARIABLES" section and change
+the value of ENCODING from 'utf8' to 'latin1'.
+
+This almost never needs to be done.
+
 **SET UP THE TOKEN FILE:**
 
 1. Create a Fediverse account for your Fortudon bot.
