@@ -51,7 +51,7 @@ https://github.com/redblade7/fortudon
 
 **NOTE FOR SLACKWARE LINUX USERS**
 
-Slackware Linux, by default, uses latin1 encoding rather than UTF-8 on the terminal and in its fortune files. This occasionally leads to strange errors when trying to create the .p4dat files, such as:
+Slackware Linux, by default, uses latin1 encoding rather than UTF-8 on the terminal and in its fortune files. This occasionally leads to strange errors when trying to create the `.p4dat` files, such as:
 
 `'utf-8' codec can't decode byte 0xa3 in position 1293: invalid start byte`
 
