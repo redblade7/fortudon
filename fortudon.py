@@ -51,13 +51,15 @@ from argparse import ArgumentParser,RawDescriptionHelpFormatter
 from glob import glob
 from time import sleep
 
-FORTUDON_VERSION = "3-dev (20200128)" # Fortudon version number
+FORTUDON_VERSION = "3-dev (20200201)" # Fortudon version number
 _PICKLE_PROTOCOL = 4  #  original fortune.py used 2
 INDEX_EXT = '.p4dat'  #  file extension of index files, fortune.py used '.pdat'
 DEFAULT_LENGTH = 160  #  default number of characters a ''short'' fortune
                       #  can have at maximum
 ATTEMPTS = 10000      #  number of attempts that will be made to find an 
                       #  appropriate fortune, before the program gives up
+ENCODING = 'utf8'     #  Encoding of the fortune file. On Slackware Linux,
+                      #  you may want to change this to 'latin1'
 
 def get_random_fortune(fortunepaths, weighted=True, offensive=None, 
                        min_length=0, max_length=None):
@@ -108,7 +110,7 @@ def get_random_fortune(fortunepaths, weighted=True, offensive=None,
                 return ""
             continue
         try:
-            ffh = open(fortune_file, 'r', encoding='utf8')
+            ffh = open(fortune_file, 'r', encoding=str(ENCODING))
         except OSError as err:
             print("ERROR: ",err,file=sys.stderr)
             sys.exit(1)
@@ -296,7 +298,7 @@ def filter_fortunes(fortunepaths, pattern, ignorecase=True, offensive=None,
         print('(' + os.path.split(fortune_file)[1] + ")\n%",file=sys.stderr)
         sys.stderr.flush()
         try:
-            fortunes = read_fortunes(open(fortune_file, 'r', encoding='utf8'))
+            fortunes = read_fortunes(open(fortune_file, 'r', encoding=str(ENCODING)))
         except OSError as err:
             print("ERROR: ",err,file=sys.stderr)
             sys.exit(1)
@@ -331,7 +333,7 @@ def filter_fortunes(fortunepaths, pattern, ignorecase=True, offensive=None,
         print("%\n(" + os.path.split(fortune_file)[1] + ')', file=sys.stderr)
         sys.stderr.flush()
         try:
-            fortunes = read_fortunes(open(fortune_file, 'r', encoding='utf8'))
+            fortunes = read_fortunes(open(fortune_file, 'r', encoding=str(ENCODING)))
         except OSError as err:
             print("ERROR: ",err,file=sys.stderr)
             sys.exit(1)
@@ -416,7 +418,7 @@ def read_fortunes(fortune_file):
             if start == -1:
                 start = pos
             fortune_lines.append(line)
-        pos += len(line.encode('utf8'))
+        pos += len(line.encode(str(ENCODING)))
 
     fortune = "".join(fortune_lines)
     if fortune != "": 
@@ -446,7 +448,7 @@ def make_fortune_data_file(fortunepaths, quiet=False):
         shortest = sys.maxsize
         longest = 0
         try:
-            for start, length, fortune in read_fortunes(open(fortune_file, 'r', encoding='utf8')):
+            for start, length, fortune in read_fortunes(open(fortune_file, 'r', encoding=str(ENCODING))):
                 data += [(start, length)]
                 #print ("Wrote: " + str(start), str(length))
                 #print
