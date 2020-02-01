@@ -1,5 +1,6 @@
 v3-dev (20200201)
 
+* added official "GLOBAL VARIABLES" section to fortudon.py
 * fortudon.py global variable ENCODING allows customization of codepage (recommended for Slackware Linux, see README.md)
 * added another fortudon-based bot
 
