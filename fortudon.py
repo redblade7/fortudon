@@ -55,7 +55,7 @@ from time import sleep
 GLOBAL VARIABLES
 """
 
-FORTUDON_VERSION = "3-dev (20200201)" # Fortudon version number
+FORTUDON_VERSION = "3 stable (20200214)" # Fortudon version number
 _PICKLE_PROTOCOL = 4  #  original fortune.py used 2
 INDEX_EXT = '.p4dat'  #  file extension of index files, fortune.py used '.pdat'
 DEFAULT_LENGTH = 160  #  default number of characters a ''short'' fortune
@@ -65,7 +65,7 @@ ATTEMPTS = 10000      #  number of attempts that will be made to find an
 ENCODING = 'utf8'     #  Encoding of the fortune files.
                       #     Should almost always be the default 'utf8'
                       #     Slackware Linux users may want to change this
-                      #     to 'latin1'
+                      #     to 'latin1' if they get errors (see README.md)
 
 def get_random_fortune(fortunepaths, weighted=True, offensive=None, 
                        min_length=0, max_length=None):
