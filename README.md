@@ -112,5 +112,6 @@ Enjoy!
 **FEDIVERSE BOTS USING FORTUDON:**
 
 * `@BitchX@neckbeard.xyz` / https://neckbeard.xyz/BitchX
+* `@fortunebot@neckbeard.xyz` / https://neckbeard.xyz/fortunebot
 * `@ShowerThoughts@neckbeard.xyz` / https://neckbeard.xyz/ShowerThoughts
 * `@YKYWTMSMW@neckbeard.xyz` / https://neckbeard.xyz/YKYWTMSMW
