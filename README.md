@@ -8,7 +8,7 @@ fortune.py and includes its own Fediverse bot features.
 
 **REQUIREMENTS:**
 
-* Python 3.5 or higher
+* Python 3.6 or higher
 * Mastodon.py and its dependencies
 * curl
 * Fortune files, such as those provided with fortune-mod or BSD fortune
