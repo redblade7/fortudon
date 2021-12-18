@@ -1,6 +1,6 @@
 # fortudon
 
-**Fortudon v4-dev (20200407)**
+**Fortudon v4-dev (20211218)**
 
 Fortudon is a Fediverse bot designed for posting random BSD-style fortunes
 directly to Mastodon and Pleroma instances. It incorporates a fork of 

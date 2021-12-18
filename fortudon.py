@@ -2,7 +2,7 @@
 #
 ############################################################################
 #    Fortudon - Fediverse fortune bot                                      #
-#    Copyright (C) 2020, redneonglow                                       #
+#    Copyright (C) 2020-21, redneonglow                                       #
 #    https://github.com/redblade7/fortudon                                 #
 #                                                                          #
 #    Includes code from:                                                   #
@@ -55,7 +55,7 @@ from time import sleep
 GLOBAL VARIABLES
 """
 
-FORTUDON_VERSION = "4-dev (20200407)" # Fortudon version number
+FORTUDON_VERSION = "4-dev (20211218)" # Fortudon version number
 _PICKLE_PROTOCOL = 4  #  original fortune.py used 2
 INDEX_EXT = '.p4dat'  #  file extension of index files, fortune.py used '.pdat'
 DEFAULT_LENGTH = 160  #  default number of characters a ''short'' fortune
