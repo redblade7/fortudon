@@ -106,8 +106,8 @@ Enjoy!
 **FEDIVERSE CONTACT INFO:**
 
 * `@redneonglow@bae.st` / https://bae.st/redneonglow (main)
-* `@redneonglow@anime.website` / https://anime.website/redneonglow (backup)
 * `@redneonglow@weeaboo.space` / https://weeaboo.space/redneonglow (backup)
+* `@redneonglow@gameliberty.club` / https://gameliberty.club/@redneonglow (backup)
 
 **FEDIVERSE BOTS USING FORTUDON:**
 
