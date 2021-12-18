@@ -84,7 +84,7 @@ Display random fortune chosen from non-offensive files in `fortune-folder`: `./f
 
 Display random long fortune chosen from either `fortune-folder/myfortunes1` or `fortune-folder/myfortunes2`: `./fortudon.py -l fortune-folder/myfortunes1 fortune-folder/myfortunes2`
 
-Post random short fortune, choosing from both offensive and non-offensive files in `fortune-folder`, to Pleroma instance Neckbeard, using token file `tokenfile.json` and public visibility: `./fortudon.py -sap https://neckbeard.xyz tokenfile.json public fortune-folder`
+Post random short fortune, choosing from both offensive and non-offensive files in `fortune-folder`, to Pleroma instance bae.st, using token file `tokenfile.json` and public visibility: `./fortudon.py -sap https://bae.st tokenfile.json public fortune-folder`
 
 Post random short fortune, chosen from non-offensive files in `fortune-folder`, to Mastodon instance `mastodon.social`, using token file `wokenfile.json` and unlisted visibility: `./fortudon.py -sp https://mastodon.social wokenfile.json unlisted fortune-folder`
 
@@ -105,13 +105,13 @@ Enjoy!
 
 **FEDIVERSE CONTACT INFO:**
 
-* `@redneonglow@neckbeard.xyz` / https://neckbeard.xyz/redneonglow (main)
+* `@redneonglow@bae.st` / https://bae.st/redneonglow (main)
 * `@redneonglow@anime.website` / https://anime.website/redneonglow (backup)
 * `@redneonglow@weeaboo.space` / https://weeaboo.space/redneonglow (backup)
 
 **FEDIVERSE BOTS USING FORTUDON:**
 
-* `@BitchX@neckbeard.xyz` / https://neckbeard.xyz/BitchX
-* `@fortunebot@neckbeard.xyz` / https://neckbeard.xyz/fortunebot
-* `@ShowerThoughts@neckbeard.xyz` / https://neckbeard.xyz/ShowerThoughts
-* `@YKYWTMSMW@neckbeard.xyz` / https://neckbeard.xyz/YKYWTMSMW
+* `@BitchX@bae.st` / https://bae.st/BitchX
+* `@fortunebot@bae.st` / https://bae.st/fortunebot
+* `@ShowerThoughts@bae.st` / https://bae.st/ShowerThoughts
+* `@YKYWTMSMW@bae.st` / https://bae.st/YKYWTMSMW
