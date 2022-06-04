@@ -2,7 +2,7 @@
 #
 ############################################################################
 #    Fortudon - Fediverse fortune bot                                      #
-#    Copyright (C) 2020-21, redneonglow                                       #
+#    Copyright (C) 2020-22, redneonglow                                    #
 #    https://github.com/redblade7/fortudon                                 #
 #                                                                          #
 #    Includes code from:                                                   #
@@ -55,7 +55,7 @@ from time import sleep
 GLOBAL VARIABLES
 """
 
-FORTUDON_VERSION = "4-dev (20211220)" # Fortudon version number
+FORTUDON_VERSION = "4-dev (20220604)" # Fortudon version number
 _PICKLE_PROTOCOL = 4  #  original fortune.py used 2
 INDEX_EXT = '.p4dat'  #  file extension of index files, fortune.py used '.pdat'
 DEFAULT_LENGTH = 160  #  default number of characters a ''short'' fortune
@@ -517,7 +517,7 @@ def fd_verpart2():
 
 #return copyright and license info
 def fd_copyright():
-    return str(fd_verline()+"\nCopyright (C) 2020, redneonglow\n\nIncorporates code from:\n\nfortune.py (original) - Copyright (C) 2008, Michael Goerz\nfortune.py (Python 3/UTF-8 fork) - Copyright (C) 2018, Volker Kettenbach\nDark Web Mystery Bot v3 - Copyright (C) 2019, redneonglow\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, version 3.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.")
+    return str(fd_verline()+"\nCopyright (C) 2020-22, redneonglow\n\nIncorporates code from:\n\nfortune.py (original) - Copyright (C) 2008, Michael Goerz\nfortune.py (Python 3/UTF-8 fork) - Copyright (C) 2018, Volker Kettenbach\nDark Web Mystery Bot v3 - Copyright (C) 2019, redneonglow\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, version 3.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.")
 
 def main():
     """
